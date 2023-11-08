@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(243, 132, 6);
+}
+.unam{
+    max-width: 9rem;
+    align-items: center;
+
+
+}
+.nav-lista{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+
+}
+.nav-lista li a h5 {
+    
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    border-radius: 50px;
+    background-color: rgb(255, 17, 0);
+    font-weight: bolder ;
+
+}
+.menuopen,
+.menuclose{
+    display: none;
+
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.home{
+    background-color: rgb(97, 75, 75);
+}
+.home1{
+    background-color: rgb(44, 44, 48);
+    padding: 1px;
+}
+.home2{
+    background-color: rgb(32, 28, 7);
+    padding: 1px;
+}
+.home3{
+    background-color: rgb(87, 73, 6);
+    padding: 1px;
+}
+.container-table{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: space-evenly;
+    align-tracks: center;
+}
+.container-table1{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: space-evenly;
+    align-tracks: left;
+}
+.subtitle{
+    color: rgb(190, 190, 211);
+    font-family: sans-serif;
+}
+.card-container{
+    background-color: rgb(75, 39, 75);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    width: 330px;
+    padding: 40px;
+    font-family: sans-serif;
+}
+.card-container1{
+    background-color: rgb(119, 136, 192);
+    color: #201e1e;
+    text-align: left;
+    border-radius: 15px;
+    width: 370px;
+    padding: 40px;
+    font-family: sans-serif;
+}
+.card-container2{
+    background-color: rgb(129, 177, 147);
+    color: #201e1e;
+    text-align: center;
+    border-radius: 600px;
+    width: 350px;
+    padding: 40px;
+    font-family: sans-serif;
+}
+.bot{
+    border: 2px solid #33478d;
+    border-radius: 50px;
+    width: fit-content;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 20px auto;
+    padding: 10px 22px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.bot:hover{
+    background: white;
+    color: rgb(5, 5, 5);
+}
+@media screen and (max-width:550px){
+    .home, .container, .card-container{
+        width: auto;
+        margin: auto;
+    }
+} 
+.image2{
+    max-width: 15rem;
+}
+.image3{
+    max-width: 15rem;
+}
+.image4{
+    max-width: 15rem;
+}
+.image5{
+    text-align: left;
+    max-width: 20rem;
+}
+.contacto{
+    background-color: rgb(43, 0, 0);
+    color: yellow;
+    padding: 150px 0;
+}
+.contacto .contacto-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.contacto form{
+    display: grid;
+    grid-column: 1 / 3;
+}
+.contacto h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+.contacto .col .info{
+    position: absolute;
+    top: 40%;
+    background-color: #a32323;
+    padding: 20px;
+    width: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20px;
+}
+.contacto .col input{
+    display: block;
+    width: 100%;
+    padding: 1%;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgb(124, 33, 204);
+    color: antiquewhite;
+    font-size: 18px;
+}
+.contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2b0202;
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .contacto, .contacto-seccion, .col, .fila{
+        width: auto;
+        margin: auto;
+    }
+    .contacto .fila{
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+        margin: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .menuopen,
+    .menuclose {
+        display: block;
+         border: 0;
+         font-size: 1.25rem;
+         background-color: rgb(7, 2, 1);
+         cursor: pointer;
+         color: rgb(226, 193, 7);
+
+    }
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(10, 104, 26);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(151, 39, 39, 0.5);
+
+    }
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+
+    }
+    .nav-lista{
+        flex-direction: column;
+        align-items: end;
+    }
+    .nav-lista li a h5 {
+        color: white;
+    }
+}
