@@ -50,7 +50,7 @@ header{
 .home{
     background-color: black;
 
-    background-image: image-set("/Fondo.png");
+    background-image: url(../Fondo.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
