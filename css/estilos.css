@@ -48,7 +48,7 @@ header{
     text-align: center;
 }
 .home{
-
+    background: black;
     background: url(../Fondo.png);
     background-repeat: no-repeat;
     background-position: right top;
@@ -186,6 +186,7 @@ header{
     max-width: 20rem;
 }
 .contacto{
+    background: #879ff3;
     background-image: url("/Fondo1.png");
     background-repeat: no-repeat;
     background-position: center top;
