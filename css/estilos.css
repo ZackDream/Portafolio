@@ -48,9 +48,8 @@ header{
     text-align: center;
 }
 .home{
-    background-color: black;
 
-    background-image: url(../Fondo.png);
+    background: url(../Fondo.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -58,7 +57,7 @@ header{
 }
 .home1{
     background: black;
-    background-image: url("/Fondo.png");
+    background: url(../Fondo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
