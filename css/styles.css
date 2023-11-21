@@ -11,7 +11,7 @@ body{
     height: 145vh;
     width: 100%;
     position: relative;
-    background: linear-gradient(rgba(0,0,0,0.4), transparent), url(/img/Fondo.png);
+    background: linear-gradient(rgba(0,0,0,0.4), transparent), url(/Fondo.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 100%;
