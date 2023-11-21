@@ -48,19 +48,37 @@ header{
     text-align: center;
 }
 .home{
-    background-color: rgb(97, 75, 75);
+    background-color: black;
+    background: url("/img/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    padding: 100px;
 }
 .home1{
-    background-color: rgb(44, 44, 48);
-    padding: 1px;
+    background: black;
+    background: url("/img/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px;
 }
 .home2{
-    background-color: rgb(32, 28, 7);
-    padding: 1px;
+    background: black;
+    background: url("/img/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    padding: 100px;
 }
 .home3{
-    background-color: rgb(87, 73, 6);
-    padding: 1px;
+    background: black;
+    background: url("/img/Fondo2.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-color: rgb(6, 41, 87);
+    padding: 290px;
 }
 .container-table{
     padding-top: 60px;
@@ -106,7 +124,7 @@ header{
     text-align: center;
     border-radius: 600px;
     width: 350px;
-    padding: 40px;
+    padding: 50px;
     font-family: sans-serif;
 }
 .bot{
@@ -131,6 +149,29 @@ header{
         margin: auto;
     }
 } 
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
 .image2{
     max-width: 15rem;
 }
@@ -145,9 +186,12 @@ header{
     max-width: 20rem;
 }
 .contacto{
-    background-color: rgb(43, 0, 0);
-    color: yellow;
-    padding: 150px 0;
+    background: url("/img/Fondo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 250px;
 }
 .contacto .contacto-seccion{
     max-width: 1100px;
@@ -174,7 +218,7 @@ header{
 .contacto .col .info{
     position: absolute;
     top: 40%;
-    background-color: #a32323;
+    background-color: #a06d6d;
     padding: 20px;
     width: 400px;
     left: 50%;
@@ -194,13 +238,13 @@ header{
 .contacto button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #000000;
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #fff;
+    color: rgb(199, 22, 22);
     position: relative;
     z-index: 10;
 }
@@ -210,7 +254,7 @@ header{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #2b0202;
+    background-color: #24c90f;
     z-index: -1;
     transition: 1s;
 }
@@ -272,3 +316,26 @@ header{
         color: white;
     }
 }
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 38px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #f74bda;
+    color: #241e1e;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+}  
