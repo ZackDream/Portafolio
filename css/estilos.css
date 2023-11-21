@@ -65,7 +65,7 @@ header{
 }
 .home2{
     background: black;
-    background-image: url("/Fondo.png");
+    background-image: url(../Fondo.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: fixed;
@@ -73,7 +73,7 @@ header{
 }
 .home3{
     background: black;
-    background-image: url("/Fondo2.png");
+    background-image: url(../Fondo2.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: fixed;
@@ -187,7 +187,7 @@ header{
 }
 .contacto{
     background: #879ff3;
-    background-image: url("/Fondo1.png");
+    background-image: url(../Fondo1.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
