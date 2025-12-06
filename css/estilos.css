@@ -340,3 +340,391 @@ header{
   .buttons a:hover {
     transform: scale(1.2);
 }  
+
+
+.quienes-somos {
+    background: black;
+    background-image: url(../Fondo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 20px;
+}
+
+.quienes-somos .contenido h2 {
+    color: #ff6b00;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.quienes-somos .contenido p {
+    color: #e6e6e6;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.quienes-somos .contenido h3 {
+    color: #ffcc00;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.quienes-somos .card-container1 {
+    background-color: rgba(40, 40, 80, 0.9);
+    border: 2px solid #ff6b00;
+    box-shadow: 0 10px 30px rgba(255, 107, 0, 0.3);
+}
+
+.nav-lista li a[href="#QuienesSomos"] h5 {
+    background-color: rgb(255, 17, 0);
+}
+
+@media screen and (max-width: 768px) {
+    .quienes-somos {
+        padding: 60px 15px;
+    }
+    
+    .quienes-somos .contenido h2 {
+        font-size: 2rem;
+    }
+    
+    .quienes-somos .contenido p {
+        font-size: 1rem;
+    }
+    
+    .quienes-somos .card-container1 {
+        width: 100%;
+        padding: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .quienes-somos {
+        padding: 40px 10px;
+    }
+    
+    .quienes-somos .contenido h2 {
+        font-size: 1.8rem;
+    }
+}
+
+.quienes-somos {
+    background: black;
+    background-image: url(../Fondo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 20px;
+    width: 100%;
+}
+
+.quienes-somos .container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.quienes-somos .container-table {
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.card-container-quienes {
+    background-color: rgba(40, 40, 80, 0.9);
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    width: 90%; 
+    max-width: 1000px; 
+    padding: 50px 60px; 
+    font-family: sans-serif;
+    border: 3px solid #ff6b00;
+    box-shadow: 0 15px 40px rgba(255, 107, 0, 0.4);
+    margin: 0 auto; 
+}
+
+.quienes-somos .contenido h2 {
+    color: #ff6b00;
+    margin-bottom: 25px;
+    font-size: 2.8rem; 
+    text-align: center;
+}
+
+.quienes-somos .contenido p {
+    color: #e6e6e6;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    font-size: 1.2rem; 
+    text-align: justify;
+    text-align-last: center; 
+}
+
+.quienes-somos .contenido h3 {
+    color: #ffcc00;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+    border-top: 2px dashed #ff6b00;
+}
+
+.nav-lista li a[href="#QuienesSomos"] h5 {
+    background-color: rgb(255, 17, 0);
+}
+
+@media screen and (max-width: 1200px) {
+    .card-container-quienes {
+        width: 95%;
+        max-width: 900px;
+        padding: 40px 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card-container-quienes {
+        width: 98%;
+        max-width: 800px;
+        padding: 35px 40px;
+    }
+    
+    .quienes-somos .contenido h2 {
+        font-size: 2.4rem;
+    }
+    
+    .quienes-somos .contenido p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .quienes-somos {
+        padding: 60px 15px;
+    }
+    
+    .card-container-quienes {
+        width: 100%;
+        padding: 30px 25px;
+        border-radius: 10px;
+    }
+    
+    .quienes-somos .contenido h2 {
+        font-size: 2rem;
+    }
+    
+    .quienes-somos .contenido p {
+        font-size: 1rem;
+        text-align: left;
+        text-align-last: left;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .quienes-somos {
+        padding: 40px 10px;
+    }
+    
+    .card-container-quienes {
+        padding: 25px 20px;
+    }
+    
+    .quienes-somos .contenido h2 {
+        font-size: 1.8rem;
+    }
+    
+    .quienes-somos .contenido p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
+.integrantes {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 80px 20px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.integrantes::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../Fondo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.integrantes .container {
+    position: relative;
+    z-index: 1;
+}
+
+.integrantes .subtitle {
+    color: #ffcc00;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-container-integrante {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 300px;
+    padding: 30px 25px;
+    margin: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-container-integrante:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(255, 107, 0, 0.4);
+    border-color: #ff6b00;
+}
+
+.integrante-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff6b00, #ffcc00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 25px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.integrante-img i {
+    font-size: 60px;
+    color: white;
+}
+
+.card-container-integrante h3 {
+    color: #ffcc00;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.card-container-integrante h4 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card-container-integrante .cargo {
+    color: #ff6b00;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(255, 107, 0, 0.3);
+}
+
+.card-container-integrante .descripcion {
+    color: #e6e6e6;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+
+.nav-lista li a[href="#Integrantes"] h5 {
+    background-color: #ffcc00;
+    color: #1a1a2e;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .card-container-integrante {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .card-container-integrante {
+        width: 250px;
+        padding: 25px 20px;
+    }
+    
+    .integrantes .subtitle {
+        font-size: 2.2rem;
+    }
+    
+    .integrante-img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .integrante-img i {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .integrantes {
+        padding: 60px 15px;
+    }
+    
+    .integrantes .container-table {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-container-integrante {
+        width: 80%;
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+    
+    .integrantes .subtitle {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .integrantes {
+        padding: 50px 10px;
+    }
+    
+    .card-container-integrante {
+        width: 95%;
+        padding: 25px 20px;
+    }
+    
+    .integrantes .subtitle {
+        font-size: 1.8rem;
+    }
+    
+    .card-container-integrante h3 {
+        font-size: 1.4rem;
+    }
+    
+    .card-container-integrante h4 {
+        font-size: 1.2rem;
+    }
+    
+    .integrante-img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .integrante-img i {
+        font-size: 45px;
+    }
+}
